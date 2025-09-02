@@ -55,8 +55,49 @@ $$
 \boxed{2^{n+1} \in O(2^n)}
 $$
 
+### **1b.** Is $2^{2^n} \in O(2^n)$? Why or why not?
 
-  - 1b    
+Let $g(n) = 2^{2^n}$ and $f(n) = 2^n$.  
+For $2^{2^n} \in O(2^n)$ to be true, $f(n)$ must **asymptotically dominate** $g(n)$.
+
+By the **definition of Big-O**, there must exist constants $c > 0$ and $n_0 > 0$ such that:
+
+$$
+g(n) \le c \cdot f(n) \quad \forall n \ge n_0
+$$
+
+**Substitute $g(n)$ and $f(n)$:**
+
+$$
+2^{2^n} \le c \cdot 2^n \quad \forall n \ge n_0
+$$
+
+Divide both sides by $2^n > 0$:
+
+$$
+2^{2^n - n} \le c
+$$
+
+Take $\log_2$ of both sides:
+
+$$
+2^n - n \le \log_2 c
+$$
+
+
+As $n \to \infty$, the term $2^n - n \to \infty$.  
+
+**left-hand side** grows without bound, while $\log_2 c$ is constant for any fixed $c$.  
+
+Therefore, **no constant** $c > 0$ can make this inequality hold for all $n$, especially when they become larger.
+
+
+- $f(n) = 2^n$ **cannot** asymptotically dominate $g(n) = 2^{2^n}$, therefore:
+
+$$
+\boxed{2^{2^n} \notin O(2^n)}
+$$
+
  
   - 1c
 
