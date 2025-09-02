@@ -1,8 +1,8 @@
   # CMPS 6610 Problem Set 01
 ## Answers
 
-**Name:**_________________________
-**Name:**_________________________
+**Name:** Arjun Dadhwal
+**Name:**
 
 
 Place all written answers from `assignment-01.md` here for easier grading.
