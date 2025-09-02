@@ -5,8 +5,13 @@ See problemset-01.pdf for details.
 # no imports needed.
 
 def foo(x):
-    ### TODO
-    pass
+    if a == 0:
+        return b
+    elif b == 0:
+        return a
+    else:
+        x, y = min(a, b), max(a, b)
+        return foo(x, y, % x)
 
 def longest_run(mylist, key):
     ### TODO
