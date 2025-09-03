@@ -1,4 +1,4 @@
-# CMPS 6610 Problem Set 01
+=# CMPS 6610 Problem Set 01
 ## Answers
 
 **Name:** Arjun Dadhwal
@@ -139,7 +139,7 @@ ______
 
 **Answer:** Yes.
 
-By definition of Big-$\Omega$, there must exist constants $c > 0$ and $n_0 > 0$ such that:
+By definition of Big- $\Omega$, there must exist constants $c > 0$ and $n_0 > 0$ such that:
 
 $$
 n^{1.01} \ge c \cdot (\log n)^2 \qquad \text{for all } n \ge n_0.
