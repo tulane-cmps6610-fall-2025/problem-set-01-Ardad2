@@ -413,7 +413,7 @@ $$
 
 **Span:**  
 
-The span is the longest sequence of dependencies from root to leaf. Since there are $\(\lfloor \log_2 n \rfloor\) levels and each level does constant O(1) work, the critical path grows logarithmically:
+The span is the longest sequence of dependencies from root to leaf. Since there are $\(\lfloor \log_2 n \rfloor\)$ levels and each level does constant O(1) work, the critical path grows logarithmically:
 
 $$
 S(n) = \Theta(\log n)
