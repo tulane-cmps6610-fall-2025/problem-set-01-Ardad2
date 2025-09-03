@@ -1,4 +1,4 @@
-=# CMPS 6610 Problem Set 01
+# CMPS 6610 Problem Set 01
 ## Answers
 
 **Name:** Arjun Dadhwal
